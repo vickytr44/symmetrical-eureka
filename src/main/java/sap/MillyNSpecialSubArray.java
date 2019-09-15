@@ -37,7 +37,7 @@ public class MillyNSpecialSubArray {
 	}
 
 	public static int getNumberOfSubArrays(int[] a) {
-		Arrays.sort(a);
+		/*Arrays.sort(a);*/
 		int r = a.length;
 		int[] c = new int[a.length];
 		for (int i = 1; i < a.length; i++) {
